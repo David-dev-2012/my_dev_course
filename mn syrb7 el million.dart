@@ -64,6 +64,7 @@ void main() {
       'altAnswers': ['Mount Everest', 'mount everest'],
     },
   ];
+  List<String> correctquestion = [];
 
   // Question 1
   print(questions[0]['question']);
@@ -72,10 +73,13 @@ void main() {
   if (questions[0]['altAnswers'].contains(answer1) || answer1 == questions[0]['correctAnswer']) {
     print("correct");
     score += 1;
+  print(  "your score is $score"+"/10");
+   correctquestion.add(questions[0]['question']+"your answers is"+" --- "+ questions[0]['correctAnswer']);
   } else {
     print("wrong");
+print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+  
 
   // Question 2
   print(questions[1]['question']);
@@ -84,10 +88,13 @@ void main() {
   if (questions[1]['altAnswers'].contains(answer2) || answer2 == questions[1]['correctAnswer']) {
     print("correct");
     score += 1;
+    print(  "your score is $score"+"/10");
+      correctquestion.add(questions[1]['question']+"your answers is"+" --- "+ questions[1]['correctAnswer']);
   } else {
     print("wrong");
+print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+  
 
   // Question 3
   print(questions[2]['question']);
@@ -96,10 +103,13 @@ void main() {
   if (questions[2]['altAnswers'].contains(answer3) || answer3 == questions[2]['correctAnswer']) {
     print("correct");
     score += 1;
+  print(  "your score is $score"+"/10");
+      correctquestion.add(questions[2]['question']+"your answers is"+" --- "+ questions[2]['correctAnswer']);
   } else {
     print("wrong");
+ print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+
 
   // Question 4
   print(questions[3]['question']);
@@ -108,10 +118,13 @@ void main() {
   if (questions[3]['altAnswers'].contains(answer4) || answer4 == questions[3]['correctAnswer']) {
     print("correct");
     score += 1;
+  print(  "your score is $score"+"/10");
+      correctquestion.add(questions[3]['question']+"your answers is"+" --- "+ questions[3]['correctAnswer']);
   } else {
     print("wrong");
+print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+
 
   // Question 5
   print(questions[4]['question']);
@@ -120,10 +133,13 @@ void main() {
   if (questions[4]['altAnswers'].contains(answer5) || answer5 == questions[4]['correctAnswer']) {
     print("correct");
     score += 1;
+ print(  "your score is $score"+"/10");
+      correctquestion.add(questions[4]['question']+"your answers is"+" --- "+ questions[4]['correctAnswer']);
   } else {
     print("wrong");
+print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+
 
   // Question 6
   print(questions[5]['question']);
@@ -132,10 +148,13 @@ void main() {
   if (questions[5]['altAnswers'].contains(answer6) || answer6 == questions[5]['correctAnswer']) {
     print("correct");
     score += 1;
+    print(  "your score is $score"+"/10");
+      correctquestion.add(questions[5]['question']+"your answers is"+" --- "+ questions[5]['correctAnswer']);
   } else {
     print("wrong");
+  print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+ 
 
   // Question 7
   print(questions[6]['question']);
@@ -144,10 +163,13 @@ void main() {
   if (questions[6]['altAnswers'].contains(answer7) || answer7 == questions[6]['correctAnswer']) {
     print("correct");
     score += 1;
+print(  "your score is $score"+"/10");
+      correctquestion.add(questions[6]['question']+"your answers is"+" --- "+ questions[6]['correctAnswer']);
   } else {
     print("wrong");
+  print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+ 
 
   // Question 8
   print(questions[7]['question']);
@@ -156,10 +178,13 @@ void main() {
   if (questions[7]['altAnswers'].contains(answer8) || answer8 == questions[7]['correctAnswer']) {
     print("correct");
     score += 1;
+   print(  "your score is $score"+"/10");
+      correctquestion.add(questions[7]['question']+"your answers is"+" --- "+ questions[7]['correctAnswer']);
   } else {
     print("wrong");
+ print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+ 
 
   // Question 9
   print(questions[8]['question']);
@@ -168,10 +193,13 @@ void main() {
   if (questions[8]['altAnswers'].contains(answer9) || answer9 == questions[8]['correctAnswer']) {
     print("correct");
     score += 1;
+print(  "your score is $score"+"/10");
+      correctquestion.add(questions[8]['question']+"your answers is"+" --- "+ questions[8]['correctAnswer']);
   } else {
     print("wrong");
+        print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+ 
 
   // Question 10
   print(questions[9]['question']);
@@ -180,15 +208,65 @@ void main() {
   if (questions[9]['altAnswers'].contains(answer10) || answer10 == questions[9]['correctAnswer']) {
     print("correct");
     score += 1;
+     print(  "your score is $score"+"/10");
+      correctquestion.add(questions[9]['question']+"your answers is"+" --- "+ questions[9]['correctAnswer']);
   } else {
     print("wrong");
+ print(  "your score is $score"+"/10");
   }
-  print('Your score is $score');
+  
   if (score == 10||score>=6) {  
     print("you win 🎉");
+    print(  "your score is $score"+"/10");
     
 }
 else{
   print("you lose 😢");
+print(  "your score is $score"+"/10");
 }
+print("                   your correct answers is : ");
+  correctquestion[0].isNotEmpty;
+  if(true){
+    print(correctquestion[0]);
+  }
+correctquestion[1].isNotEmpty;
+  if(true){
+    print(correctquestion[1]);
+  }
+correctquestion[2].isNotEmpty;
+  if(true){
+    print(correctquestion[2]);
+  }
+correctquestion[3].isNotEmpty;
+  if(true){
+    print(correctquestion[3]);
+  }
+correctquestion[4].isNotEmpty;
+  if(true){
+    print(correctquestion[4]);
+  }
+correctquestion[5].isNotEmpty;
+  if(true){
+    print(correctquestion[5]);
+  }
+correctquestion[6].isNotEmpty;
+  if(true){
+    print(correctquestion[6]);
+  }
+correctquestion[7].isNotEmpty;
+  if(true){
+    print(correctquestion[7]);
+  }
+correctquestion[8].isNotEmpty;
+  if(true){
+    print(correctquestion[8]);
+  }
+correctquestion[9].isNotEmpty;
+  if(true){
+    print(correctquestion[9]);
+  }
+
+
+
+
 }
