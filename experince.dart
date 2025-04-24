@@ -1,7 +1,5 @@
-import 'dart:io';
-
 void main() {
-  /*  while(true){
+   /* while(true){
  stdout.write('enter your price: ');
 
 double price =double.parse(stdin.readLineSync()!);
@@ -34,8 +32,8 @@ if(phone ==3){
 }
     }
 
-*/
-  /* print("Enter your name :");
+
+   print("Enter your name :");
   String name = stdin.readLineSync()!;
   if (name.isEmpty) {
     print("please Enter your name :");
@@ -89,10 +87,10 @@ if(phone ==3){
         print("this animal isn't found $name");
       
     }
-  }*/
+  }
 
   //if statment
-  /*print("enter a number:");
+  print("enter a number:");
 int number =
 int.parse(stdin.readLineSync()!);
 if(number==10){
@@ -101,10 +99,10 @@ if(number==10){
   print("negative number");
 }else{
   print("zero");
-}*/
+}
 
   //switch case
-  /*print("select a number\n 1. 10 \n 2. -5 \n 3. zero")
+  print("select a number\n 1. 10 \n 2. -5 \n 3. zero")
 int number = int.parse(stdin.readLineSync()!);
 switch (number){
   case 1:
@@ -115,17 +113,96 @@ switch (number){
   print("zero")
   default:
   print("unfound") 
-}*/
+}
 
   //short hand if statment(ternary. operator)
   print("enter a number");
   int number = int.parse(stdin.readLineSync()!);
   String numbers;
-  numbers =
+  numbers = 
       (number > 0)
           ? "positive number"
           : (number < 0)
           ? "negative number"
           : "zero";
   print(numbers);
+Set<Map> set = {{1:23} , {4:56}}; ;
+print(set.elementAt(0));
+Map map = {
+  1 : "david",
+  "age" : 20,
+  "country" : "Egypt"
+};
+print(map["country"]);
+print(map[1]);
+print(map["age"]);
+List<Map> list = [{"age" : 20} , {"name" : "david"} , {"country" : "Egypt"}];
+print(list[2]);
+print(list[1]);
+print(list[0]);
+*/
+
+
+for (int x = 1; x <= 12; x++) {
+print("=========you are in $x===============")
+  for(int y =1; y<=12 ; y++){
+    print("$x * $y = ${x*y}");
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
