@@ -1,7 +1,11 @@
 import 'dart:io';
 
-void addPosts(String? post, List posts) {
+void addPosts( List posts) {
   print("enter your post : ");
-  String? post = stdin.readLineSync();
+  print("title : ");
+  dynamic title = stdin.readLineSync()!;
+  print("details : ");
+  dynamic details = stdin.readLineSync()!;
+  Map? post ={title : details};
   posts.add(post);
 }

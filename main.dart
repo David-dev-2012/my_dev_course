@@ -4,7 +4,7 @@ import 'add_posts.dart';
 import 'dart:io';
 
 void main() {
-  List posts = [1, 1, 3, 4, 5, 6, 7, 8, 9, 10];
+  List<Map> posts = [{9:4},{5:6},{7:8}];
   print(
     "press 1 to add post\n  press 2 to remove post\n  press 3 to edit post\n \n",
   );
@@ -20,14 +20,12 @@ void main() {
       }
     }
   }
-  if (choice != "1" || choice != "2" || choice != "3") {
-    print("that's not a valid choice");
-  }
-  if (choice == "1" || choice == "2" || choice == "3") {
+ 
+ 
     print("your choice : $choice");
     if (choice == "1") {
-      String? post;
-      addPosts(post, posts);
+      
+      addPosts( posts);
       print("your posts : $posts");
     }
     if (choice == "2") {
@@ -45,4 +43,3 @@ void main() {
       editPosts(posts);
     }
   }
-}
