@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'my_app/my_app.dart';
+import 'package:plant_shop/app/planet_app.dart';
 
 void main() {
   runApp(MyApp());
